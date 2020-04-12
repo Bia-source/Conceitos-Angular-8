@@ -1,4 +1,6 @@
 import { Component } from '@angular/core';
+import './app.component.css';
+
 
 @Component({
   selector: 'app-root',
@@ -7,4 +9,13 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'teste';
+  nome: string;
+  nomePag: string;
+  objetivo: string;
+
+  constructor(){
+    this.nomePag=("Home");
+    this.objetivo=("Primeiro Componente");
+    this.nome=("Bem Vindo");
+  }
 }

@@ -1,8 +1,14 @@
 import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
+import { DataBindingComponent } from './data-binding/data-binding.component';
 
 
-const routes: Routes = [];
+const routes: Routes = [
+  {path: 'primeiro-componente',
+  component: DataBindingComponent
+  }
+
+];
 
 @NgModule({
   imports: [RouterModule.forRoot(routes)],
