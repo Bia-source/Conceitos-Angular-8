@@ -13,12 +13,14 @@ export class DataBindingComponent implements OnInit {
 
 
   constructor() {
-    this.nomePag=("Primeito componente,");
     this.objetivo=("Criar um novo componente");
    }
 
   ngOnInit(): void {
   }
+  alterarNomePag(nome: string){
+    this.nomePag=(nome);
+ }
 
 }
 

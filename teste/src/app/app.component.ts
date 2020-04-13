@@ -7,6 +7,8 @@ import './app.component.css';
   templateUrl: './app.component.html',
   styleUrls: ['./app.component.css']
 })
+
+
 export class AppComponent {
   title = 'teste';
   nome: string;
@@ -14,8 +16,10 @@ export class AppComponent {
   objetivo: string;
 
   constructor(){
-    this.nomePag=("Home");
+   
     this.objetivo=("Primeiro Componente");
     this.nome=("Bem Vindo");
   }
 }
+
+
