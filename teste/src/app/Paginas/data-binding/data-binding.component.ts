@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
-import '../app.component.css';
+
+// import '../app.component.css';
 @Component({
   selector: 'app-data-binding',
   templateUrl: './data-binding.component.html',
@@ -13,14 +14,13 @@ export class DataBindingComponent implements OnInit {
 
 
   constructor() {
+    this.nomePag=("Home");
     this.objetivo=("Criar um novo componente");
    }
 
   ngOnInit(): void {
   }
-  alterarNomePag(nome: string){
-    this.nomePag=(nome);
- }
+
 
 }
 

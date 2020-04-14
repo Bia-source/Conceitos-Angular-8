@@ -1,6 +1,6 @@
 import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
-import { DataBindingComponent } from './data-binding/data-binding.component';
+import { DataBindingComponent } from './Paginas/data-binding/data-binding.component';
 
 
 const routes: Routes = [

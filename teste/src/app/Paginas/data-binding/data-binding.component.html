@@ -1,18 +1,15 @@
-<!-- <app-header></app-header> -->
-<ng-container>
+<ng-container >
 
-<div class="">
 
- <hr>
- <span>NOME DA PAGINA </span>
- <label> {{nomePag}} </label>
+
+<h1>Seja bem vindo</h1>
+</ng-container>
+<div>
+  <input (change)="nomePag = $event.target.value">
+  <label>Exibindo resultado: {{nomePag}}</label>
 
 </div>
 
-<div>
-   <h1>  <input type="text" (change)="alterarNomePag($event.target.value)"></h1>
- </div>
-</ng-container>
 <!-- <p>
   <button type="button" class="btn btn-outline-primary" (click)="isCollapsed = !isCollapsed"
           [attr.aria-expanded]="!isCollapsed" aria-controls="collapseExample">
